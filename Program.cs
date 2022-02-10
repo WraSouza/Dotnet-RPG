@@ -6,4 +6,6 @@ Wizard wizard = new Wizard("Jennica",23,"White Wizard");
 
 Ninja ninja = new Ninja("Shisui", 30,"Ninja");
 
-Console.WriteLine(ninja.Defend());
+BlackWizard blackWizard = new BlackWizard("Geralt",35,"Black Wizard");
+
+Console.WriteLine(blackWizard.Attack("dragao"));
